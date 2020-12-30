@@ -56,19 +56,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MobileDepthWater\Scripts\TouchRotator.cs" />
+    <Compile Include="Assets\Scripts\Tank.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterMaterialSwitcher.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\AnimationStarter.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterArea.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\FPSCounter.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterPropertyBlockSetter.cs" />
+    <Compile Include="Assets\Scripts\Tower\Tower.cs" />
+    <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\CameraRotator.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\FPSUI.cs" />
     <Compile Include="Assets\MobileDepthWater\Scripts\CameraDepthSlider.cs" />
-    <Compile Include="Assets\Scripts\Block.cs" />
-    <Compile Include="Assets\Scripts\Tower\Tower.cs" />
-    <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Tank.cs" />
+    <Compile Include="Assets\Scripts\ObstacleRotator.cs" />
+    <Compile Include="Assets\Scripts\Obstacle.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\MobileDepthWater\Shaders\WaterTwoSide\Height\DiffuseColorHeightWaterTwoSide.shader" />
@@ -640,6 +642,18 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
